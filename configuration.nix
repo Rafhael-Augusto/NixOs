@@ -6,7 +6,7 @@
       ./hardware-configuration.nix
       ./gaming.nix
       ./git.nix
-      ./vim.nix
+      ./neovim.nix
       ./flatpak.nix
     ];
 
@@ -64,6 +64,7 @@
 
   environment.systemPackages = with pkgs; [
     wget
+    wl-clipboard
   ];
 
   system.stateVersion = "26.05";
