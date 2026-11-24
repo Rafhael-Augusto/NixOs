@@ -7,6 +7,7 @@
       ./gaming.nix
       ./git.nix
       ./vim.nix
+      ./flatpak.nix
     ];
 
   boot.loader.systemd-boot.enable = true;
