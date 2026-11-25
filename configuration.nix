@@ -8,6 +8,7 @@
       ./git.nix
       ./neovim.nix
       ./flatpak.nix
+      ./arduino.nix
     ];
 
   boot.loader.systemd-boot.enable = true;
